@@ -1,0 +1,61 @@
+/* Body */
+
+.preguntas-frecuentes-body{
+    background-color: #fbe5e2;
+    background-image: url("../media/forma-fondo-preguntas-frecuentes.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* Hero content*/
+
+.hero-img-preguntas{
+    img{
+        max-width: 250px;
+        padding: auto;
+
+    }
+} 
+
+/*Accordion*/
+
+.preguntas-frecuentes{
+    margin: 3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #282828;
+    background-color: #aff0ff;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-border-color: #861657;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0rem rgba(13, 109, 253, 0);
+}
+
+.accordion-button{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-family: 'Montserrat'; 
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img-preguntas img {
+        width: 150px;
+        padding: auto;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img-preguntas img {
+        width: 70px;
+        padding: auto;
+    }
+}  

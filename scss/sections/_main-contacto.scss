@@ -1,0 +1,129 @@
+/* Body */
+
+.contacto-body{
+    background-color: #ffffff;
+    background-image: url("../media/forma-fondo-contacto.png");
+    background-position: top right;
+    background-repeat: no-repeat; 
+}
+
+/* Hero content*/
+
+.hero-img-contacto{
+    img{
+        max-width: 250px;
+        padding: auto;
+
+    }
+} 
+
+/* Form */
+
+.seccion-form{
+    display: flex;
+    padding: 5%;
+    form {
+        line-height: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: auto;
+        label{
+            padding-bottom: 10px;
+        }
+        input{
+            width: 600px;
+            border-radius: 10px;
+            padding: 10px;
+            line-height: 1;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+        }
+        textarea{
+            width: 600px;
+            border-radius: 30px;
+            padding: 20px;
+        }
+    }
+    .checkbox{
+        text-align: left;
+        font-weight: 600;
+        width: auto;
+    }
+    .boton-principal{
+        width: auto;
+        background-color: #861657;
+        border-radius: 20px;
+        padding: 10px;
+        border: 2px solid #861657;
+        color: #ffffff;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300px;
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+    .boton-principal:hover{
+        background-color: #ffffff;
+        border: 2px solid #861657;
+        color:#861657;
+        background-color: #ffffff;
+        font-weight: 700;
+    }
+    .boton-secundario{
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+        border: 2px solid #861657;
+        width: auto;
+        margin: 20px 0px;
+        color: #861657;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        a{
+            text-decoration: none;
+            color: #861657;
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+    .boton-secundario:hover{
+        background-color: #861657;
+        border: 2px solid #861657;
+        color:#ffffff;
+        font-weight: 700;
+    }
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img-contacto img {
+        width: 150px;
+        padding: auto;
+    }
+    .seccion-form form input{
+        width: 300px;
+    }
+    .seccion-form form textarea{
+        width: 300px;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img-contacto img {
+        width: 70px;
+        padding: auto;
+    }
+    .seccion-form form input{
+        width: 200px;
+    }
+    .seccion-form form textarea{
+        width: 200px;
+    }
+
+}  

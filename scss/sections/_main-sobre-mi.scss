@@ -1,0 +1,78 @@
+/* Body */
+
+.sobre-mi-body{
+    background-color: #ffffff;
+    background-image: url("../media/forma-fondo-sobre-mi.jpg");
+    background-position: top right;
+    background-repeat: no-repeat; 
+}
+
+/* Hero content */
+
+.hero-img-sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 300px;
+        padding-top: 50px;
+    }
+} 
+
+/* Sections */
+
+.seccion-sobre-mi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.texto-sobre-mi{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    h2{
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 40px 0;
+        text-align: left;  
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img-sobre-mi img{
+        width: 200px;
+        padding: auto;
+    }
+    .imagen-sobre-mi img{
+        width: 300px;
+        padding: auto;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img-sobre-mi img{
+        width: 100;
+        padding: auto;
+    }
+    .imagen-sobre-mi img{
+        width: 200px;
+        padding: auto;
+    }
+}
